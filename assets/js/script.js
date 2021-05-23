@@ -16,8 +16,8 @@ $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip()
       });
 
-    $("i").on("dblclick", function(){
-        $(this).css("color", "#ff9900");
+    $("i").on("click", function(){
+        $(this).css("color", "#e68a00");
     });
 
     $(".card-title").click(function(){
