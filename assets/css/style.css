@@ -1,0 +1,65 @@
+body {
+    font-family:'Quicksand', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'MuseoModerno', cursive;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #006666;
+}
+
+nav {
+    background-image: linear-gradient(rgb(0,0,0,.8),rgb(0,0,0,0));
+}
+
+.carousel-inner {
+    max-height: 60rem;
+}
+
+.carousel-indicators li {
+    width : 10px ;
+    height : 10px ;
+    border-radius : 35% ;
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 0 0.4rem 0 0.4rem;
+}
+
+h2 {
+    border-bottom: solid 2px #006666;
+}
+
+h2.text-white {
+    border-bottom: solid 2px #fff;
+}
+
+.medal {
+    background: url('../img/values-2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.leaf {
+    background: url('../img/values-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.hands {
+    background: url('../img/values-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.fa-medal, .fa-leaf, .fa-hands-helping {
+    color: #006666;
+}
+
+#popular, footer {
+    background: #006666;
+}
