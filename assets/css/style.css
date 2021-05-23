@@ -1,5 +1,15 @@
+/* Estilo general */
+
 body {
     font-family:'Quicksand', sans-serif;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(255,255,255,.6);
 }
 
 h1, h2, h3 {
@@ -10,10 +20,16 @@ h2, h3, h4, h5, h6 {
     color: #006666;
 }
 
+h2 {
+    border-bottom: solid 2px #006666;
+}
+
+/* Fondo Nav */
 nav {
     background-image: linear-gradient(rgb(0,0,0,.8),rgb(0,0,0,0));
 }
 
+/* Slider */
 .carousel-inner {
     max-height: 60rem;
 }
@@ -27,9 +43,7 @@ nav {
     margin: 0 0.4rem 0 0.4rem;
 }
 
-h2 {
-    border-bottom: solid 2px #006666;
-}
+/*Sección Quienes Somos */
 
 h2.text-white {
     border-bottom: solid 2px #fff;
@@ -60,6 +74,13 @@ h2.text-white {
     color: #006666;
 }
 
+/* Footer */
 #popular, footer {
     background: #006666;
+}
+
+/* Tooltip */
+.tooltip-inner {
+    font-family:'Quicksand', sans-serif;
+    font-weight: 600;
 }
