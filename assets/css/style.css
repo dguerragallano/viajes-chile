@@ -20,7 +20,7 @@ h2, h3, h4, h5, h6 {
     color: #006666;
 }
 
-h2 {
+.underline {
     border-bottom: solid 2px #006666;
 }
 
@@ -44,7 +44,6 @@ nav {
 }
 
 /*Sección Quienes Somos */
-
 h2.text-white {
     border-bottom: solid 2px #fff;
 }
